@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A08C27C3-7D68-4ABF-84B8-1E5D651A0869}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AplicacionInmobiliaria</RootNamespace>
+    <AssemblyName>AplicacionInmobiliaria</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Search.master" />
+    <Content Include="Master.master" />
+    <Content Include="Contact.aspx" />
+    <Content Include="About.aspx" />
+    <Content Include="ContentCDMX.aspx" />
+    <Content Include="ContentGuadalajara.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ContentMonterrey.aspx" />
+    <Content Include="style.css" />
+    <Content Include="Login.aspx" />
+    <Content Include="ContentPropiedad.aspx" />
+    <Content Include="RegisterBuyer.aspx" />
+    <Content Include="RegisterSeller.aspx" />
+    <Content Include="RegisterSuccess.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Search.master.cs">
+      <DependentUpon>Search.master</DependentUpon>
+    </Compile>
+    <Compile Include="Search.master.designer.cs">
+      <DependentUpon>Search.master</DependentUpon>
+    </Compile>
+    <Compile Include="Master.master.cs">
+      <DependentUpon>Master.master</DependentUpon>
+    </Compile>
+    <Compile Include="Master.master.designer.cs">
+      <DependentUpon>Master.master</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentCDMX.aspx.cs">
+      <DependentUpon>ContentCDMX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentCDMX.aspx.designer.cs">
+      <DependentUpon>ContentCDMX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentGuadalajara.aspx.cs">
+      <DependentUpon>ContentGuadalajara.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentGuadalajara.aspx.designer.cs">
+      <DependentUpon>ContentGuadalajara.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentMonterrey.aspx.cs">
+      <DependentUpon>ContentMonterrey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentMonterrey.aspx.designer.cs">
+      <DependentUpon>ContentMonterrey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentPropiedad.aspx.cs">
+      <DependentUpon>ContentPropiedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentPropiedad.aspx.designer.cs">
+      <DependentUpon>ContentPropiedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterBuyer.aspx.cs">
+      <DependentUpon>RegisterBuyer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterBuyer.aspx.designer.cs">
+      <DependentUpon>RegisterBuyer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterSeller.aspx.cs">
+      <DependentUpon>RegisterSeller.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterSeller.aspx.designer.cs">
+      <DependentUpon>RegisterSeller.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterSuccess.aspx.cs">
+      <DependentUpon>RegisterSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterSuccess.aspx.designer.cs">
+      <DependentUpon>RegisterSuccess.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

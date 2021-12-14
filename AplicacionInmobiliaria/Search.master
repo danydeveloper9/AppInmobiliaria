@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" Inherits="AplicacionInmobiliaria.Search" MasterPageFile="~/Master.master" %>
+
+<asp:Content runat="server" id="MainContent" ContentPlaceHolderID="contentPlaceHolder">
+    <form id="form1" runat="server" class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 d-flex justify-content-end">
+                <asp:Button id="buttonLogin" runat="server" Text="Iniciar Sesión" OnClick="buttonLogin_Click" class="btn btn-primary" />                
+            </div>
+            <h1 class="text-center my-5">Bienvenido a Venta Inmobiliaria!</h1>
+            <div class="col-12 col-md-6 d-md-flex">
+                <asp:DropDownList 
+                    runat="server" 
+                    id="ddlNameCity" 
+                    class="form-select mb-3 mb-md-0 me-md-3">
+                    <asp:ListItem Value="0" Text="Seleccione una ciudad" />
+                    <asp:ListItem Value="1" Text="CDMX" />
+                    <asp:ListItem Value="2" Text="Guadalajara" />
+                    <asp:ListItem Value="3" Text="Monterrey" />
+                </asp:DropDownList>
+                
+                <div class="d-grid d-md-block">
+                    <asp:Button id="buttonSearch" runat="server" Text="Buscar!" OnClick="buttonSearch_Click" class="btn btn-success" />  
+                </div>
+            </div>
+        </div>
+    </form>
+    
+    <div class="row">
+        <div class="col-12 mt-5 text-center px-0">
+            <asp:ContentPlaceHolder id="carouselPlaceHolder" runat="server"/> 
+        </div>
+    </div>
+    
+</asp:Content>

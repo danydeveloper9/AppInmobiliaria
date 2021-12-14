@@ -1,0 +1,6 @@
+/home/danielmontes/Projects/AplicacionInmobiliaria/AplicacionInmobiliaria/bin/AplicacionInmobiliaria.dll
+/home/danielmontes/Projects/AplicacionInmobiliaria/AplicacionInmobiliaria/bin/AplicacionInmobiliaria.pdb
+/home/danielmontes/Projects/AplicacionInmobiliaria/AplicacionInmobiliaria/obj/Debug/AplicacionInmobiliaria.csprojAssemblyReference.cache
+/home/danielmontes/Projects/AplicacionInmobiliaria/AplicacionInmobiliaria/obj/Debug/AplicacionInmobiliaria.csproj.CoreCompileInputs.cache
+/home/danielmontes/Projects/AplicacionInmobiliaria/AplicacionInmobiliaria/obj/Debug/AplicacionInmobiliaria.dll
+/home/danielmontes/Projects/AplicacionInmobiliaria/AplicacionInmobiliaria/obj/Debug/AplicacionInmobiliaria.pdb

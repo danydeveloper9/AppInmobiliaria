@@ -1,0 +1,30 @@
+﻿#container {
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.responsive-carousel {
+    height: 75vh;
+    background-color: darkred;
+}
+
+.formLogin {
+    max-width: 600px;
+}
+
+.formRegister {
+    max-width: 600px;
+}
+
+.imgContent {
+    max-height: 300px;
+    height: 300px;
+    background-color: darkred;
+}
+
+footer {
+    position: sticky;
+    z-index: 2;
+    width: 100%;
+    bottom: 0;
+}
