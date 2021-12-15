@@ -11,16 +11,16 @@
 <div id="container">            
             
    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <form runat="server" class="container-fluid">
-        <asp:LinkButton runat="server" id="brand" class="navbar-brand" Text="Venta Inmobiliaria" OnClick="brand_Click"/>
+      <form class="container-fluid">
+        <a id="brand" class="navbar-brand" Text="Venta Inmobiliaria" OnClick="brand_Click"/>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <asp:LinkButton runat="server" id="link0" class="nav-link" Text="Inicio" OnClick="link0_Click"/>
-            <asp:LinkButton runat="server" id="link1" class="nav-link" Text="Contacto" OnClick="link1_Click"/>
-            <asp:LinkButton runat="server" id="link2" class="nav-link" Text="Sobre Nosotros" OnClick="link2_Click"/>
+            <a id="link0" class="nav-link" Text="Inicio" OnClick="link0_Click"/>
+            <a id="link1" class="nav-link" Text="Contacto" OnClick="link1_Click"/>
+            <a  id="link2" class="nav-link" Text="Sobre Nosotros" OnClick="link2_Click"/>
           </div>
         </div>
       </form>

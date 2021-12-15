@@ -4,3 +4,10 @@
 /home/danielmontes/Projects/AplicacionInmobiliaria/AplicacionInmobiliaria/obj/Debug/AplicacionInmobiliaria.csproj.CoreCompileInputs.cache
 /home/danielmontes/Projects/AplicacionInmobiliaria/AplicacionInmobiliaria/obj/Debug/AplicacionInmobiliaria.dll
 /home/danielmontes/Projects/AplicacionInmobiliaria/AplicacionInmobiliaria/obj/Debug/AplicacionInmobiliaria.pdb
+C:\Users\MarkII\Desktop\2022-1\dotNET\_inombiliaria\AplicacionInmobiliaria\bin\AplicacionInmobiliaria.dll.config
+C:\Users\MarkII\Desktop\2022-1\dotNET\_inombiliaria\AplicacionInmobiliaria\bin\AplicacionInmobiliaria.dll
+C:\Users\MarkII\Desktop\2022-1\dotNET\_inombiliaria\AplicacionInmobiliaria\bin\AplicacionInmobiliaria.pdb
+C:\Users\MarkII\Desktop\2022-1\dotNET\_inombiliaria\AplicacionInmobiliaria\obj\Debug\AplicacionInmobiliaria.csproj.AssemblyReference.cache
+C:\Users\MarkII\Desktop\2022-1\dotNET\_inombiliaria\AplicacionInmobiliaria\obj\Debug\AplicacionInmobiliaria.csproj.CoreCompileInputs.cache
+C:\Users\MarkII\Desktop\2022-1\dotNET\_inombiliaria\AplicacionInmobiliaria\obj\Debug\AplicacionInmobiliaria.dll
+C:\Users\MarkII\Desktop\2022-1\dotNET\_inombiliaria\AplicacionInmobiliaria\obj\Debug\AplicacionInmobiliaria.pdb

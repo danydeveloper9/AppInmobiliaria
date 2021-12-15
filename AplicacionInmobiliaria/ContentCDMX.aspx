@@ -16,8 +16,8 @@
         <!-- Esta es la parte a duplicar, donde se deberan observar los datos de la DB -->        
         <div class="responsive-carousel carousel-item active">
           <img src="..." class="d-block w-100" alt="...">
-          <form runat="server" class="carousel-caption d-none d-md-block">
-            <h5><asp:LinkButton runat="server" id="ownership" class="fw-normal" Text="Propiedad 1" OnClick="ownership_Click"/></h5>
+          <form class="carousel-caption d-none d-md-block">
+            <h5><a id="ownership" class="fw-normal" Text="Propiedad 1" OnClick="ownership_Click"/></h5>
             <p>Descripcion, Ubicacion, etc.</p>
           </form>
         </div>
