@@ -24,7 +24,7 @@ namespace AplicacionInmobiliaria
         protected global::System.Web.UI.HtmlControls.HtmlForm formLogin;
 
         /// <summary>
-        /// Control txtNombreComprador.
+        /// Control txtNombreVendedor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
@@ -33,7 +33,7 @@ namespace AplicacionInmobiliaria
         protected global::System.Web.UI.WebControls.TextBox txtNombreComprador;
 
         /// <summary>
-        /// Control txtPaternoComprador.
+        /// Control txtPaternoVendedor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
@@ -42,7 +42,7 @@ namespace AplicacionInmobiliaria
         protected global::System.Web.UI.WebControls.TextBox txtPaternoComprador;
 
         /// <summary>
-        /// Control txtMaternoComprador.
+        /// Control txtMaternoVendedor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
@@ -51,7 +51,7 @@ namespace AplicacionInmobiliaria
         protected global::System.Web.UI.WebControls.TextBox txtMaternoComprador;
 
         /// <summary>
-        /// Control txtNumeroComprador.
+        /// Control txtNumeroVendedor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
@@ -60,7 +60,7 @@ namespace AplicacionInmobiliaria
         protected global::System.Web.UI.WebControls.TextBox txtNumeroComprador;
 
         /// <summary>
-        /// Control txtCorreoComprador.
+        /// Control txtCorreoVendedor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
@@ -69,21 +69,12 @@ namespace AplicacionInmobiliaria
         protected global::System.Web.UI.WebControls.TextBox txtCorreoComprador;
 
         /// <summary>
-        /// Control txtPassComprador.
+        /// Control txtPassVendedor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPassComprador;
-
-        /// <summary>
-        /// Control buttonRegister.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button buttonRegister;
     }
 }

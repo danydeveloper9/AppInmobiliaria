@@ -1,65 +1,62 @@
-﻿<%@ Page Language="C#" Inherits="AplicacionInmobiliaria.RegisterSeller" MasterPageFile="~/Master.master" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="AplicacionInmobiliaria.RegisterSeller" MasterPageFile="~/Master.master"  CodeBehind="~/RegisterSeller.aspx.cs"%>
 <asp:Content runat="server" id="RegisterSellerContent" ContentPlaceHolderID="contentPlaceHolder">
-    <form id="formLogin" runat="server" class="container my-5 text-center">
+    <form id="formVendedor" runat="server" class="container my-5 text-center">
         <h1>Registrarse como Vendedor</h1>
         
         <div class="container border border-dark rounded text-start p-5 mt-5 formRegister">
             
             <!--Datos Vendedor-->
             <div class="mb-3">
-                <label for="exampleInputName" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="exampleInputName">
+                <label for="txtNombreVendedor" class="form-label">Nombre</label>
+                <asp:TextBox runat="server" ID="txtNombreVendedor" CssClass="form-control" />
             </div>
             <div class="mb-3">
-                <label for="exampleInputLastName" class="form-label">Apellido Paterno</label>
-                <input type="text" class="form-control" id="exampleInputLastName">
+                <label for="txtPaternoVendedor" class="form-label">Apellido Paterno</label>
+                <asp:TextBox runat="server" ID="txtPaternoVendedor" CssClass="form-control" />
             </div>
             <div class="mb-3">
-                <label for="exampleInputNumber" class="form-label">Numero</label>
-                <input type="text" class="form-control" id="exampleInputNumber">
+                <label for="txtMaternoVendedor" class="form-label">Apellido Materno</label>
+                <asp:TextBox runat="server" ID="txtMaternoVendedor" CssClass="form-control" />
             </div>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="txtNumeroVendedor" class="form-label">Numero</label>
+                <asp:TextBox runat="server" ID="txtNumeroVendedor" CssClass="form-control" TextMode="Phone"/>
+            </div>
+            <div class="mb-3">
+                <label for="txtCorreoVendedor" class="form-label">Correo Electrónico</label>
+                <asp:TextBox runat="server" ID="txtCorreoVendedor" CssClass="form-control" TextMode="Email"/>
                 <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="txtPassVendedor" class="form-label">Contraseña</label>
+                <asp:TextBox runat="server" ID="txtPassVendedor" CssClass="form-control" TextMode="Password"/>
             </div>
             
             <!--Datos Inmueble-->
+            <h2 class="my-3">Datos del inmueble</h2>
+
             <div class="mb-3">
-                <label for="exampleInputCalle" class="form-label">Calle</label>
-                <input type="text" class="form-control" id="exampleInputCalle">
+                <label for="cboZona" class="form-label">Zona</label> <br />
+                <asp:DropDownList runat="server" ID="cboZona">
+                  <asp:ListItem Selected="True" Value="0"> Seleccionar... </asp:ListItem>
+                  <asp:ListItem Value="1"> CDMX </asp:ListItem>
+                  <asp:ListItem Value="2"> Guadalajara </asp:ListItem>
+                  <asp:ListItem Value="3"> Monterrey </asp:ListItem>
+                </asp:DropDownList>
             </div>
             <div class="mb-3">
-                <label for="exampleInputNoExterior" class="form-label">No. Exterior</label>
-                <input type="text" class="form-control" id="exampleInputNoExterior">
+                <label for="txtUbicacion" class="form-label">Ubicación</label> <br />
+                <asp:TextBox runat="server" ID="txtUbicacion" TextMode="MultiLine"/>
             </div>
             <div class="mb-3">
-                <label for="exampleInputNoInterior" class="form-label">No. Interior</label>
-                <input type="text" class="form-control" id="exampleInputNoInterior">
+                <label for="txtCosto" class="form-label">Precio</label> <br />
+                <asp:TextBox runat="server" TextMode="Number"  ID="txtCosto"/>
             </div>
             <div class="mb-3">
-                <label for="exampleInputColonia" class="form-label">Colonia</label>
-                <input type="text" class="form-control" id="exampleInputColonia">
+                <label for="txtAntiguedad" class="form-label">Años de antiguedad</label> <br />
+                <asp:TextBox runat="server" TextMode="Number"  ID="txtAntiguedad"/>
             </div>
-            <div class="mb-3">
-                <label for="exampleInputEstado" class="form-label">Estado</label>
-                <input type="text" class="form-control" id="exampleInputEstado">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputDescripcion" class="form-label">Descripcion</label>
-                <input type="text" class="form-control" id="exampleInputDescripcion">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPrecio" class="form-label">Precio</label>
-                <input type="text" class="form-control" id="exampleInputPrecio">
-            </div>
-            
-            <asp:Button id="buttonRegister" runat="server" Text="Registrar" class="btn btn-primary" OnClick="buttonRegister_Click" />
+            <asp:Button id="buttonRegister" runat="server" Text="Registrar" class="btn btn-primary" OnClick="ButtonRegister_Click" />
         </div>
         
     </form>
